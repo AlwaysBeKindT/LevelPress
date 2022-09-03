@@ -6,9 +6,9 @@ import net.minecraftforge.fml.common.Mod;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("level_press")
-public class level_press {
+public class Level_Press {
 
-    public level_press() {
+    public Level_Press() {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(AiExchange.class);
     }
